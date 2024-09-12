@@ -1,10 +1,12 @@
 package com.springBoot.e.springBoot.e;
 
 import jakarta.persistence.*;
+import org.springframework.context.annotation.Bean;
 
 @Entity
 @Table(name = "cars")
 public class Car {
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "id")

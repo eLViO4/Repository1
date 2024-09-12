@@ -9,10 +9,10 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/")
 public class CarController {
-    private final CarService carService;
+    private final Service carService;
 
     @Autowired
-    public CarController(CarService carService) {
+    public CarController(Service carService) {
         this.carService = carService;
     }
 

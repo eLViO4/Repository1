@@ -3,7 +3,7 @@ package jdbc;
 import java.sql.*;
 
 public class CreateTable {
-   /* public static void main(String[] args) throws SQLException {
+    public static void main(String[] args) throws SQLException {
         String url = "jdbc:mysql://localhost:3306/my_db";
         String user = "bestuser";
         String password = "bestuser";
@@ -22,8 +22,8 @@ public class CreateTable {
         Statement statement = connection.createStatement();
         statement.execute(createTableSQL);
 
-        Connection conn = DriverManager.getConnection(url, user, password);
-        PreparedStatement preparedStatement = conn.prepareStatement(insertSQL);
+      //  Connection conn = DriverManager.getConnection(url, user, password);
+        PreparedStatement preparedStatement = connection.prepareStatement(insertSQL);
 
         preparedStatement.setString(1, "Name1");
         preparedStatement.setString(2, "Surname1");
@@ -34,6 +34,6 @@ public class CreateTable {
         preparedStatement.setString(2, "Surname2");
         preparedStatement.setDouble(3, 2000);
         preparedStatement.addBatch();
-    }*/
+    }
 }
 

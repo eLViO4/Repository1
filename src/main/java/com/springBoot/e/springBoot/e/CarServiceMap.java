@@ -7,7 +7,7 @@ import org.springframework.stereotype.Service;
 import java.util.*;
 
 @Service
-public class CarServiceMap {
+public class CarServiceMap implements com.springBoot.e.springBoot.e.Service {
 
     private final CarRepository carRepository;
     private Map<Integer, Car> mapOfCars = new HashMap<>();
