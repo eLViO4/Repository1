@@ -1,7 +1,7 @@
 package com.springBoot.e.springBoot.e;
 
 import jakarta.persistence.*;
-import org.springframework.context.annotation.Bean;
+
 
 @Entity
 @Table(name = "cars")

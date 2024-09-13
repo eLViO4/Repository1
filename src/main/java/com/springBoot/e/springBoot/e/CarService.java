@@ -33,5 +33,4 @@ class CarService implements com.springBoot.e.springBoot.e.Service {
     public void deleteCar(int id) {
         carRepository.deleteById(id);
     }
-
 }
