@@ -1,12 +1,15 @@
-package com.springBoot.e.springBoot.e;
+package com.springBoot.e.springBoot.e.Service;
 
+import com.springBoot.e.springBoot.e.Car;
+import com.springBoot.e.springBoot.e.Repository.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.*;
+import java.util.List;
+import java.util.Optional;
 
 @Service
-class CarService implements com.springBoot.e.springBoot.e.Service {
+public class CarService implements com.springBoot.e.springBoot.e.Service.Service {
     private final CarRepository carRepository;
 
     @Autowired

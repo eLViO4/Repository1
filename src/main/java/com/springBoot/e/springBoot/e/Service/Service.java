@@ -1,9 +1,12 @@
-package com.springBoot.e.springBoot.e;
+package com.springBoot.e.springBoot.e.Service;
+
+import com.springBoot.e.springBoot.e.Car;
 
 import java.util.List;
 import java.util.Optional;
 
 public interface Service {
+
     List<Car> getAllCars();
 
     Optional<Car> getCarById(int id);
