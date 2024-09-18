@@ -1,4 +1,4 @@
-package com.springBoot.e.springBoot.e;
+package com.springBoot.e.springBoot.e.Entity;
 
 import jakarta.persistence.*;
 

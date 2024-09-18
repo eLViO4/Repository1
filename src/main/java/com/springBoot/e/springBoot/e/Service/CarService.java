@@ -1,6 +1,6 @@
 package com.springBoot.e.springBoot.e.Service;
 
-import com.springBoot.e.springBoot.e.Car;
+import com.springBoot.e.springBoot.e.Entity.Car;
 import com.springBoot.e.springBoot.e.Repository.CarRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

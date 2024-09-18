@@ -1,6 +1,6 @@
 package com.springBoot.e.springBoot.e.Service;
 
-import com.springBoot.e.springBoot.e.Car;
+import com.springBoot.e.springBoot.e.Entity.Car;
 
 import java.util.List;
 import java.util.Optional;
